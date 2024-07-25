@@ -1,0 +1,126 @@
+*{
+ margin: 0;
+ padding: 0;   
+ box-sizing: border-box;
+ font-family: 'Open Sans', sans-serif;
+}
+body{
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    left: 38%;
+    border: 1px solid lightgrey;
+    width: 400px;
+    height: 700px;
+    background-color: rgb(238, 236, 236);
+}
+.uper{
+   width: 400px;
+   height: 76px;
+   background-color: #bcf0c3;
+}
+ .uper .name{
+  padding: 20px 0 0 20px;
+  color: rgb(8, 7, 7);
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-left: 260px;
+}
+.icons i{
+   height: 40px;
+   width: 40px;
+   cursor: pointer;
+}
+.search_block{
+    height:50px;
+    width: 100%;
+    column-gap: 10px;
+    background-color:  rgb(241, 238, 233);
+    padding-bottom: 7px;
+}
+.search{
+   padding: 7px 0px 7px 15px;
+}
+ .search input{
+    padding: 10px 145px 7px 35px; 
+    border-radius: 25px;
+    font-size: 15px;
+   box-shadow: 2px 2px 3px 3px lightgray;
+   border: none;
+}
+ .search i{
+    position: absolute;
+    left: 30px;
+    margin-top: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+ .chatlist{
+    height:calc(100% - 126px);
+    width: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.chatbox1{
+    position: relative;
+    display: flex;
+    height:65px;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.chatbox1:hover{
+    background-color: rgb(230, 230, 230);
+}
+.chatbox1 img{
+    border-radius: 30px;
+    margin-left: 11px;
+}
+.details{
+    height: 40px;
+    width: 240px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.details h5{
+    height: 27px;
+    font-size: 15px;
+}
+.details p{
+    font-size: 14px;
+}
+.chatbox1 span{
+    margin-top: 20px;
+    font-size: 0.8em;
+    margin-left: 15px;
+}
+.details b{
+    margin-left: 300px;
+    margin-top: 5px;
+}
+.lower{
+    width: 400px;
+    height: 53px;
+    background-color: rgb(221, 221, 221);
+    border: 1px solid lightgray;
+}
+.lower img{
+    position: relative;
+    margin-left: 50px;
+   cursor: pointer;
+}
+.lower strong{
+    position: relative;
+    margin-left: 51px;
+   cursor: pointer;
+   font-size: 0.6rem;
+}
+
+
+
+ 
